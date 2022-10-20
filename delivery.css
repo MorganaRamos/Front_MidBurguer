@@ -40,8 +40,10 @@ header {
 }
 
 .horarios {
+    margin-top: -120px;
     text-align: left;
 	margin-left: 300px;
+    list-style-type: none
 }
 
 #mapa {
