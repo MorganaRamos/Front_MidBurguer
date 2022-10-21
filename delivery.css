@@ -4,8 +4,8 @@
  -bege: #F9F2EA
 */
 
-body {
-    background: #F9F2EA;
+body, html {
+    background: #ffffff;
     height: 100vh;
     width: 100vw;  
 } 
