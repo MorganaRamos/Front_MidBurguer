@@ -11,11 +11,17 @@
     </head>
 
     <body>
+        
         <header>
-           <img id=logo src="logo2.jpeg">
-           <input id ="botao" type="button" value="Cadastro" href="signin.html">
-           
+          <button class="btn btn-light bg-dark-blur border-0 color-white btn-login-cadastro" style="border-radius: 10px;float:right; margin-top: 1%;margin-right: 1%;" type="button" data-toggle="modal" data-target="#modal-signup" display="inline-block" justify-content: space-around>Faça o Login ou Cadastre-se</button>
+           <div>
+                <img id=logo src="logo2.jpeg">
+            </div> 
 
+            
+            </div>
+
+                     
             <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Eighth navbar example">
                 <div class="container">
                   <a class="navbar-brand" href="#">Home</a>
@@ -46,19 +52,44 @@
                     </form>
                   </div>
                 </div>
-              </nav>
-
-             
+              </nav>             
         </header>
-                  
+              
+        <div> 
+          <img id="photo-principal" src="photo-principal.jpeg" alt="Banner hamburguer">
+          <br>
+          
+          <img class="photos-secundarias" src="combos-leg.jpg" alt="combos">
+          
+          <img class="photos-secundarias" src="mais-pedidos-leg.jpg" alt="mais pedidos">
+
+          <img class="photos-secundarias" src="bebidas-leg.jpg" alt="bebidas">
+
+        </div>
+
+        <div class="depoimentos">
+                    
+            <p>
+              <em>"O lanche é delicioso! Hamburger suculento no ponto certo, o pão é artesanal com fermentação lenta, o que deixa ele extremamente leve (sim eles explicam tudo isso pra você). A batata também é uma delícia e a maionese ainda melhor.
+              Tudo isso por um ótimo preço. Com certeza me tornei um cliente." </em><b> - depoimento de João Almeida pelo Ifood</b>
+            </p>
+            
+            <br>
+
+            <p> 
+              <em>"O restaurante é simplesmente perfeito, um ambiente descontraído, o atendimento é rápido e tem funcionários muito bem treinados, lanches deliciosos e suculentos. Uma ótima opção para sair com a família e amigos."</em><b>- depoimento de Karla Meneses pelo Instagran</b>
+            </p>
+          
+          
+        </div>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    
+
+          <hr>
         
           <!-- Footer -->
-        <footer class="text-center text-lg-start bg-white text-muted">
+        <footer class="text-center text-lg-start bg-white text-muted">        
             
-            
-
             <!-- Section: Links  -->
             <section class="">
               <div class="container text-center text-md-start mt-5">
@@ -83,16 +114,16 @@
                       Produtos
                     </h6>
                     <p>
-                      <a href="#!" class="text-reset">Cardápio</a>
+                      <a href="#!" class="text-reset" style = text-decoration:none>Cardápio</a>
                     </p>
                     <p>
-                      <a href="#!" class="text-reset">Combos</a>
+                      <a href="#!" class="text-reset" style = text-decoration:none>Combos</a>
                     </p>
                     <p>
-                      <a href="#!" class="text-reset">Delivery</a>
+                      <a href="#!" class="text-reset" style = text-decoration:none>Delivery</a>
                     </p>
                     <p>
-                      <a href="#!" class="text-reset">Sobre</a>
+                      <a href="#!" class="text-reset" style = text-decoration:none>Sobre</a>
                     </p>
                   </div>
                   <!-- Grid column -->
@@ -104,10 +135,10 @@
                       Redes sociais
                     </h6>
                     <p>
-                      <a href="#!" class="text-reset">Instagran</a>
+                      <a href="#!" class="text-reset" style = text-decoration:none>Instagran</a>
                     </p>
                     <p>
-                      <a href="#!" class="text-reset">Facebook</a>
+                      <a href="#!" class="text-reset" style = text-decoration:none>Facebook</a>
                     </p>
                   </div>
                   <!-- Grid column -->
@@ -115,7 +146,7 @@
                   <!-- Grid column -->
                   <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                     <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">Contato:</h6>
+                    <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
                     <p><i class="fas fa-home me-3 text-secondary"></i> Av. Washington Soares, 18</p>
                     <p>
                       <i class="fas fa-envelope me-3 text-secondary"></i>
