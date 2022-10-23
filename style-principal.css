@@ -39,6 +39,20 @@ header {
     margin-bottom: 20px;
 }
 
+#combos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+#combos img {
+    padding: 5px;
+    width: 90%;
+    border-radius: 30px;
+}
 
-
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    color: #DD2803;
+}
