@@ -7,7 +7,7 @@
 body{
     background: #ffffff;
     height: 100vh;
-    width: 100vw;  
+    width: 99vw;  
 } 
 
 header {
@@ -42,7 +42,7 @@ header {
 .horarios {
     margin-top: -120px;
     text-align: left;
-	margin-left: 300px;
+	margin-left: 360px;
     list-style-type:none;
     background-color: #ffffff;
 }
@@ -51,7 +51,7 @@ header {
     display: flex;
     margin: auto; 
     justify-content: center;
-    margin-left: 300px;
+    margin-left: 350px;
     padding: 10px 10px 10px 10px;
     background-color: #ffffff;
     
