@@ -39,6 +39,23 @@ header {
     margin-bottom: 20px;
 }
 
+#cardapio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cardapio img {
+    padding: 5px;
+    width: 50%;
+    border-radius: 50px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    color: #DD2803;
+}
 
 
 
