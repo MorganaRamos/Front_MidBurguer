@@ -4,10 +4,10 @@
  -bege: #F9F2EA
 */
 
-body, html {
+body{
     background: #ffffff;
     height: 100vh;
-    width: 100vw;  
+    width: 99vw;  
 } 
 
 header {
@@ -40,10 +40,11 @@ header {
 }
 
 .quem-somos {
-    margin-top: -120px;
+    margin-top: -150px;
     font-size: 40px;
     font-weight:bold;
-	margin-left: 520px;
+	margin-left: 900px;
+    
 }
 
 .conteúdo{
@@ -52,6 +53,7 @@ header {
 }
 
 #empresarias {
+    margin-top: 30px;
     max-width:400px;
     padding: 10px 10px 10px 10px;
     display:inline-block;
@@ -69,8 +71,8 @@ header {
 
 .texto {
     text-align: justify;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-right: 230px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 600px;
     font-size:24px;
 }
