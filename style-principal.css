@@ -16,8 +16,8 @@ header {
 
 #logo {
     max-width:140px;
-    padding: 15px 10px 10px 10px;
-    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 200px;
     display: flex;
     margin: auto; 
     
@@ -80,6 +80,7 @@ header {
 .navbar {
     margin-bottom: 20px;
 }
+
 
 
 
