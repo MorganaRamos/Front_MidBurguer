@@ -54,18 +54,18 @@ header {
 
 #empresarias {
     margin-top: 30px;
-    max-width:400px;
+    max-width:350px;
     padding: 10px 10px 10px 10px;
     display:inline-block;
-    margin-left:230px;
+    margin-left:270px;
 
 }
 
 #chef {
-    max-width:400px;
+    max-width:350px;
     padding: 10px 10px 10px 10px;
     display:inline-block;
-    margin-left:230px;
+    margin-left:270px;
     margin-bottom: 10%;
 
 }
@@ -75,5 +75,5 @@ header {
     margin-top: 30px;
     margin-left: 80px;
     margin-right: 480px;
-    font-size:23px;
+    font-size:22px;
 }

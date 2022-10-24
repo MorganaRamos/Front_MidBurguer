@@ -20,7 +20,6 @@ header {
     border-radius: 200px;
     display: flex;
     margin: auto; 
-    
 }
 
 #botao{
@@ -35,8 +34,6 @@ header {
 }
 
 #photo-principal{
-
-   
     position: relative;
     margin-top: -9%;
     left: 25%;
@@ -44,11 +41,10 @@ header {
     justify-content: flex-start;
     border-radius: 5px;
     display: inline-block;
-    max-width: 50%;
+    max-width: 40%;
 }
 
 .photos-secundarias{
-
     border-radius: 5px;
     display: inline-block;
     position: relative;
@@ -58,7 +54,6 @@ header {
     max-width: 30%;
     margin-bottom: 5%;
     justify-content:space-around;
-
 }
 
 .depoimentos {
@@ -66,38 +61,32 @@ header {
     font-size: 17px;
     line-height: 27px;
     text-shadow: 2px 4px 5px #eee, 0 0 1px rgb(95, 94, 94);
-    
     margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 6%;
-
 }
 
 #photo-principal{
-
-   
     position: relative;
     margin-top: -9%;
-    left: 25%;
+    left: 27%;
     align-items:flex-start;
     justify-content: flex-start;
     border-radius: 5px;
     display: inline-block;
-    max-width: 50%;
+    max-width: 800px;
 }
 
 .photos-secundarias{
-
     border-radius: 5px;
     display: inline-block;
     position: relative;
     padding-top: 5%;
     padding-left: 5%;
     align-items: flex-end;
-    max-width: 30%;
+    max-width: 550px;
     margin-bottom: 5%;
     justify-content:space-around;
-
 }
 
 .depoimentos {
@@ -107,8 +96,7 @@ header {
     text-shadow: 2px 4px 5px #eee, 0 0 1px rgb(95, 94, 94);
     margin-bottom: 5%;
     margin-left: 5%;
-    margin-right: 6%;
-    
+    margin-right: 10%;
 }
 
 .navbar {
